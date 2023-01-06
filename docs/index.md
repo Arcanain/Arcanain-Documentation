@@ -2,16 +2,18 @@
 
 ## About Arcanain
 Arcanainは、自律走行に関するオープンソースソフトウェアプロジェクトに取り組んでいる。
-本ドキュメントは、我々の開発するArcanain Autonomous System（AAS）について体系的に整理したものである。AASはRobot Operating System (ROS)をベースに構築されており、移動ロボットの自律走行を可能にするシステムである。
+本ドキュメントは、我々の開発するArcanain Autonomous System（AAS）の体系的内容と開発過程について整理したものである。AASはRobot Operating System (ROS)をベースに構築されており、移動ロボットの自律走行を可能にするシステムである。
 
 ## Related Documentations
+- [Qiita](https://qiita.com/MMM-lab)
+- [はてなブログ](https://ramune6110.hatenablog.com/)
 
 ## Getting started
 - [Development Member](Introduction) ：Arcanainの開発メンバを紹介している
 
-- [Concepts](concepts) ：Arcanainの開発コンセプトについてまとめている
+- [Concept](concept) ：Arcanainの開発コンセプトについてまとめている
 
-- [Configuration](configuration) ：AASのシステム構成と各機能の要求定義についてまとめている
+- [Configuration](configuration) ：AASのシステムコンフィグレーションについてまとめている
 
 - [Support](support) ：Arcanainのスポンサー様の紹介ページ
 
@@ -19,9 +21,9 @@ Arcanainは、自律走行に関するオープンソースソフトウェアプ
 
 - [Interfaces](interfaces/Control) ：AASのシステムIFと各機能のIFについてまとめている
 
-
-<div align="center">
-<img src="https://webnexty.com/wp-content/uploads/2015/03/ffffff.png" alt="image">
+## Arcanain team logo
+<div align="left">
+<img src="https://user-images.githubusercontent.com/52307432/183297157-d0f68402-0dfc-42f3-bab9-dc75be2ea78f.png" alt="image">
 </div>
 
 <!--
