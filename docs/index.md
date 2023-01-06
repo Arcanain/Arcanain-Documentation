@@ -7,15 +7,22 @@ Arcanainは、自律走行に関するオープンソースソフトウェアプ
 ## Related Documentations
 
 ## Getting started
+- [Development Member](Introduction) ：Arcanainの開発メンバを紹介している
+
+- [Concepts](concepts) ：Arcanainの開発コンセプトについてまとめている
+
+- [Configuration](configuration) ：AASのシステム構成と各機能の要求定義についてまとめている
+
+- [Support](support) ：Arcanainのスポンサー様の紹介ページ
+
+- [Architecture](architecture/Control) ：AASのシステム構成と各機能の要求定義についてまとめている
+
+- [Interfaces](interfaces/Control) ：AASのシステムIFと各機能のIFについてまとめている
+
 
 <div align="center">
 <img src="https://webnexty.com/wp-content/uploads/2015/03/ffffff.png" alt="image">
 </div>
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
 <!--
 ## Commands
