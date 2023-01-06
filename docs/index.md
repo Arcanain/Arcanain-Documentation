@@ -1,6 +1,8 @@
 # Arcanain Documentation
 
 ## About Arcanain
+Arcanainは、自律走行に関するオープンソースソフトウェアプロジェクトに取り組んでいる。
+本ドキュメントは、我々の開発するArcanain Autonomous System（AAS）について体系的に整理したものである。AASはRobot Operating System (ROS)をベースに構築されており、移動ロボットの自律走行を可能にするシステムである。
 
 ## Related Documentations
 
