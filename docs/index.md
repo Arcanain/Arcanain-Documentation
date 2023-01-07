@@ -17,9 +17,9 @@ Arcanainは、自律走行に関するオープンソースソフトウェアプ
 
 - [Support](support) ：Arcanainのスポンサー様の紹介ページ
 
-- [Architecture](architecture/Control) ：AASのシステム構成と各機能の要求定義についてまとめている
+- [Architecture](architecture) ：AASのシステム構成と各機能の要求定義についてまとめている
 
-- [Interfaces](interfaces/Control) ：AASのシステムIFと各機能のIFについてまとめている
+- [Interfaces](interfaces) ：AASのシステムIFと各機能のIFについてまとめている
 
 <!--
 ## Arcanain team logo
