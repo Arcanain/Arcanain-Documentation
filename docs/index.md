@@ -21,10 +21,12 @@ Arcanainは、自律走行に関するオープンソースソフトウェアプ
 
 - [Interfaces](interfaces/Control) ：AASのシステムIFと各機能のIFについてまとめている
 
+<!--
 ## Arcanain team logo
 <div align="left">
 <img src="https://user-images.githubusercontent.com/52307432/183297157-d0f68402-0dfc-42f3-bab9-dc75be2ea78f.png" alt="image">
 </div>
+-->
 
 <!--
 ## Commands
