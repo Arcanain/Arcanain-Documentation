@@ -10,7 +10,7 @@
 - 機能拡張が容易な構成
 
 ## 2.High-level software architecture design
-![Overview](image/software_architecture_concept_design.drawio.svg)
+![SoftwareOverview](image/software_architecture_concept_design.drawio.svg)
 
 AASのソフトウェアアーキテクチャーは、以下の7つの機能から構成されている。各リンク先では機能毎の基本設計・詳細設計の内容を記載している。
 
@@ -23,6 +23,8 @@ AASのソフトウェアアーキテクチャーは、以下の7つの機能か�
 - [Vehicle](Vehicle)：指令値を受信し走行制御を行う。また、指令値の結果をもとに外部周知制御を行う
 
 ## 3.High-level hardware architecture design
+![HardwareOverview](image/hardware_architecture_concept_design.drawio.svg)
+
 AASのハードウェアアーキテクチャーは、以下の4つの機能から構成されている。
 
 - Sensing：各センサ値を取得する
