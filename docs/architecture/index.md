@@ -10,6 +10,8 @@
 - 機能拡張が容易な構成
 
 ## 2.High-level software architecture design
+![Overview](image/software_architecture_concept_design.drawio.svg)
+
 AASのソフトウェアアーキテクチャーは、以下の7つの機能から構成されている。各リンク先では機能毎の基本設計・詳細設計の内容を記載している。
 
 - [Sensing](Sensing)：各センサ値を取得する
