@@ -35,3 +35,6 @@ AASのハードウェアアーキテクチャーは、以下の4つの機能か�
 | Control | 指令値から速度制御を行う |
 | External | 指令値の結果から外部周知のためのLEDやSpeaker制御を行う |
 | Debug | モニタと接続しデバック作業を実施 |
+
+## 4.Autonomous driving implementation image
+上記アーキテクチャーにおける自律走行時のイメージ図を示す。
