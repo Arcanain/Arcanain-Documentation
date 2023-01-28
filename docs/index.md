@@ -11,6 +11,8 @@ Arcanainは、自律走行に関するオープンソースソフトウェアプ
 ## Getting started
 - [Development Member](Introduction) ：Arcanainの開発メンバを紹介している
 
+- [Development Process](development_process) ：Arcanainの開発工程を紹介している
+
 - [Concept](concept) ：Arcanainの開発コンセプトについてまとめている
 
 - [Requirement](requirement)：AASの要求仕様についてまとめている
@@ -18,8 +20,6 @@ Arcanainは、自律走行に関するオープンソースソフトウェアプ
 - [Architecture](architecture) ：AASの基本設計・詳細設計についてまとめている
 
 - [Interfaces](interfaces) ：AASのシステムIFと各機能のIFについてまとめている
-
-- [Configuration](configuration) ：AASのシステムコンフィグレーションについてまとめている
 
 - [Support](support) ：Arcanainのスポンサー様の紹介ページ
 
