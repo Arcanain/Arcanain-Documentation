@@ -16,7 +16,7 @@ AASのソフトウェアアーキテクチャーは、以下の7つの機能か�
 
 | Module | Use cases |
 | --- | --- | 
-| [Sensing](Sensing) | 各センサ値を取得する |
+| [Sensing](Sensing) | 各センサ値を取得し適切な前処理を実行する |
 | [Map](Map) | 走行環境の軌跡をLocalization部・Planning部に受け渡す |
 | [Localization](Localization) | GNSSやIMUからローカル座標系での自己位置を推定する |
 | [Perception](Perception) | Lidarやカメラ情報から障害物検知や信号機認識を行う |

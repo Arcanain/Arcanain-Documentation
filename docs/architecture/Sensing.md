@@ -13,6 +13,8 @@ Sensingでは、GMSS、IMU、Camera、Lidarからシリアル通信で取得し�
 - Lidarの点群データから、データ範囲を選択できること
 - Lidarの点群データから、外れ値を除去できること
 
+詳細な要求仕様は[Sensing requirement](https://arcanain.github.io/arcanain-documentation/requirement/Sensing/)にまとめている。
+
 ## 2.Basic Design Architecture
 Sensingにおける基本設計を下記に示す。
 
@@ -35,7 +37,8 @@ Sensingにおける基本設計を下記に示す。
 ## 3.Detailed Design Architecture
 Sensingにおける詳細設計を下記に示す。
 
-### 3.1.GNSS design
+### 3.1.GNSS Detailed Design
+基本設計と要求仕様の仕様番号とのトレーサビリティが取れるような詳細設計アーキテクチャーを記載する。
 
 #### Input
 | Input | Topic Name | Data Type | Explanation |
@@ -51,7 +54,7 @@ Sensingにおける詳細設計を下記に示す。
 |  |  |  |  |
 |  |  |  |  |
 
-### 3.2.IMU design
+### 3.2.IMU Detailed Design
 
 #### Input
 | Input | Topic Name | Data Type | Explanation |
@@ -67,7 +70,7 @@ Sensingにおける詳細設計を下記に示す。
 |  |  |  |  |
 |  |  |  |  |
 
-### 3.3.Camera design
+### 3.3.Camera Detailed Design
 
 #### Input
 | Input | Topic Name | Data Type | Explanation |
@@ -83,7 +86,7 @@ Sensingにおける詳細設計を下記に示す。
 |  |  |  |  |
 |  |  |  |  |
 
-### 3.4.Lidar design
+### 3.4.Lidar Detailed Design
 
 #### Input
 | Input | Topic Name | Data Type | Explanation |
