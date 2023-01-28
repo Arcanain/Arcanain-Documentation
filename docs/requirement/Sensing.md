@@ -12,7 +12,7 @@ GNSSに関する要求仕様を以下に記載する。
 |    | **説明** |  |
 | **要求** | **GNSS-02** | **緯度・経度・高度を取得し、ECEU座標系及びENU座標系へ変換する** |
 |    | **理由** | ローカル座標系（任意の緯度・経度・高度の原点からの座標値）での移動体の位置情報を取得するため |
-|    | **説明** | ECEF(Earth-Centered, Earth-Fixed)座標系への変換には、空間直交座標変換(Geodetic to ECEF Coordinates Transformation)という計算式が用いられます。  以下の式を用いて、緯度・経度・高度からECEF座標へ変換することができます。X = (N + h) * cos(φ) * cos(λ)  Y = (N + h) * cos(φ) * sin(λ)  Z = (N * (1 - e^2) + h) * sin(φ) https://github.com/Arcanain/arcanain-documentation/issues/1 |
+|    | **説明** | ECEF(Earth-Centered, Earth-Fixed)座標系への変換には、空間直交座標変換(Geodetic to ECEF Coordinates Transformation)という計算式が用いられる。<br/>以下の式が、緯度・経度・高度からECEF座標へ変換する式である。<br/><br/>X = (N + h) * cos(φ) * cos(λ)<br/>Y = (N + h) * cos(φ) * sin(λ)<br/>Z = (N * (1 - e^2) + h) * sin(φ)<br/>ここで、Nは楕円体の扁平率による楕円体の半径、φは緯度、λは経度である。<br/><br/>以下の式が、ECUE座標からECU座標への変換行列は以下の通りである。<br/><br/>[ -sin(φ) cos(φ) 0 <br/> -sin(λ)cos(φ) -sin(λ)sin(φ) cos(λ) <br/> cos(λ)cos(φ) cos(λ)sin(φ) sin(λ) ]<br/>ここで、φは緯度、λは経度である。|
 |    |　　| **< 緯度・経度・高度からECEU座標系へ変換 >** |
 |    | **GNSS-02.1** | 原点の緯度・経度を定める |
 |    | **GNSS-02.2** | 対象の緯度・経度を逐次的に取得する |
